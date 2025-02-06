@@ -42,7 +42,7 @@ You may make additional components for the bonus tasks if you wish.
 
 2. **Render a `House` Component in `App.jsx`**:
    - Import the `House` component into `App.jsx`.
-   - Import the `firehouse.json` data. If you have `firehouse.json` in the `src` folder, you can use the following line to do so: `import firehouses from "./firehouse.json";`
+   - Import the `firehouses.json` data. If you have `firehouse.json` in the `src` folder, you can use the following line to do so: `import firehouses from "./firehouses.json";`
    - Create a `selectHouse` function in `App.jsx` that, for now, just logs the selected house to the console.
    - Render a single `House` component in `App.jsx`, passing it a sample house object (maybe the first house in the array) and the `selectHouse` function as props.
 
